@@ -1,0 +1,29 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+// Material Style
+@import '~daemonite-material/assets/scss/material';
+
+// Variables
+@import 'variables';
+
+
+.navbar-laravel {
+  background-color: #4c59ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+a, .btn, button { transition: all 300ms ease-in-out;
+    &:hover { transition: all 300ms ease-in-out; }
+}
+
+@import "dashboard";
+@import "header";
+@import "footer";
+@import "book-details";
+@import "login";
+@import "registration";
+

@@ -1,0 +1,29 @@
+.main-container-header{
+  background-image: url("../js/assets/book.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.dashboard-header{
+  background-color: #fff;
+  /* border: aqua; */
+}
+.nav-item-link { padding: 20px;
+    &:hover { background-color: #ff4081; color: #fff; }
+    &.router-link-exact-active { background-color: #ff4081; color: #fff; font-weight: 500; }
+}
+.card-image{
+  max-height:225px;
+}
+.book-container-title:before{
+
+}
+.book-container-title:after{
+
+}
+.create-post-button{
+  align-content: center;
+  margin-left: 45%;
+}
+

@@ -1,0 +1,34 @@
+.registration-main-card{
+  min-height: 100vh;
+
+}
+.registration-main-form{
+  height: 517px;
+  width: 835px;
+  background-image:url("../js/assets/bc.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12vh;
+  .registration-left-form{
+    min-height: 100vh;
+    .content-left{
+      margin-left:55px;
+    }
+  }
+}
+.content-right{
+  margin-top: 63px;
+  background-color: white;
+  padding: 33px;
+  border: white;
+  box-shadow: 0 0  14px;
+}
+@media only screen and (min-width: 838px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
